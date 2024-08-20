@@ -29,17 +29,10 @@ print(a,'%',b,'=',hasil)
 hasil=a//b
 print(a,'//',b,'=',hasil)  
 
-#prioritas operasi 
-'''
-1.()
-2.**
-3.* / % //
-4.+ -
-'''
+#prioritas operasi (),exponen,perkalian,pertambahan
 a=3
 s=5
 d=7
-
 hasil=a+s*d
 print(a,'+',s,'*',d,'=',hasil)
 print((a,'+',s),'*',d,'=',hasil)
