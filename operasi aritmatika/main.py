@@ -36,3 +36,4 @@ d=7
 hasil=a+s*d
 print(a,'+',s,'*',d,'=',hasil)
 print((a,'+',s),'*',d,'=',hasil)
+
