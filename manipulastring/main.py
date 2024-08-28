@@ -1,5 +1,5 @@
 #menggabungkan string
-print("gabungin string".center(30,'-'))
+print("gabungin string".center(30,'='))
 
 awal='Monkey'
 tengah='D'
@@ -9,50 +9,51 @@ nama_lengkap = awal +" "+ tengah +"'"+ akhir
 print(nama_lengkap) 
 
 #menghitung jumlah string 'len'
-print('\n',"ngitung jumlah string".center(30,'-'))
+print('\n',"ngitung jumlah string".center(30,'='))
 
 jumlahHuruf=len(nama_lengkap)
 print('jumlah huruf dalam',nama_lengkap,'ada',jumlahHuruf)
 
-#mengulang string
-print('\n','ngulang string'.center(30,'-'))
+#mengulang string *
+print('\n','ngulang string'.center(30,'='))
 
 print('wk'*5)
 print(2*'awok')
 
-#mengecek komponen char atau string yg ada
-print("\n",'ngecek komponen'.center(30,'-'))
+#mengecek komponen char atau string yg ada 'in'
+print("\n",'ngecek komponen'.center(30,'='))
 
 d='D'
 status=d in nama_lengkap
 print('huruf',d,'di',nama_lengkap,':',status)
 
-#indexing
-print("\n",'indexing'.center(30,'-'))
+#indexing []
+print("\n",'indexing'.center(30,'='))
 
 
 print('index ke 3 dari',nama_lengkap,":",nama_lengkap[3])
 print('index ke 0:5 dari',nama_lengkap,":",nama_lengkap[0:5])
 print('index ke 0,2,4,6 dari',nama_lengkap,":",nama_lengkap[0:7:2])
 
-#ngecek item paling kecil
-print("\n",'ngecek item paling kecil/besar'.center(30,'-'))
-print('item paling kecil dari',nama_lengkap,':',min (nama_lengkap))
+#ngecek item paling kecil 'min'
+print("\n",'ngecek item paling kecil/besar'.center(30,'='))
 
-#ngecek item paling besar
+print('item paling kecil dari',nama_lengkap,':',min (nama_lengkap))
+#ngecek item paling besar 'max'
 print('item paling besar dari',nama_lengkap,':',max (nama_lengkap))
  
 #operator dalam bentuk method
-print('\n','cek jumlah char'.center(30,'-'))
+print('\n','cek jumlah char'.center(30,'='))
+
 jumlah=nama_lengkap.count('o')
 print('jumlah o pada',nama_lengkap,':',jumlah)
 
 #merubah smua huruf menjadi uppercase
-print('\n','merubah semua huruf jadi upper/lowcase'.center(40,'-'))
+print('\n','merubah semua huruf jadi upper/lowcase'.center(40,'='))
 up=nama_lengkap.upper()
 print(up)
 
-#merubah smua huruf menjadi uppercase
+#merubah smua huruf menjadi lowercase
 low=nama_lengkap.lower()
 print(low)
 
@@ -64,16 +65,22 @@ upkah=nama_lengkap.isupper()
 print('apakah huruf dalam',nama_lengkap,'upcase :',upkah)
 
 #isalpha() buat cek apakah semuanya huruf
+print('\n','isalpha'.center(40,'='))
+
 a="abcdefg"
 cek=a.isalpha()
 print('apakah komponen dari',a,'huruf semua :',cek)
 
 #isalnum() cek huruf dan angka
+print('\n','isalnum'.center(40,'='))
+
 passw='muh234'
 cek=passw.isalnum()
 print('apakah komponen dari',passw,'terdiri dari huruf dan angka :',cek )
 
 #isdecimal() cek angka
+print('\n','isdecimal'.center(40,'='))
+
 num='12345'
 cek=num.isdecimal()
 print("apakah komponen dari",num,'angka semua :',cek)
@@ -83,7 +90,7 @@ nam='\n\t'
 cek=nam.isspace()
 print(cek)
 
-#istile() semua kata diawali huruf besar
+#istitle() semua kata diawali huruf besar
 man='Iron Man'
 cek=man.istitle()
 print(cek) 
@@ -106,11 +113,11 @@ print(c.split('AM'))
 
 #alokasi karakter rjust() ljust() center()
 kanan='kanan'.rjust(20)
-print("'",kanan,"'")
+print(kanan)
 
 kiri='kiri'.ljust(20)
-print("'",kiri,"'")
+print(kiri)
 
 tengah='tengah'.center(20)
-print("'",tengah,"'")
+print(tengah)
 

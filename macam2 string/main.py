@@ -23,14 +23,14 @@ print('baris satu.\nbaris dua.')
 print(r'C:\new folder\telolet \yap \badag ')
 
 #multiline
-print('''
+print(r'''
      nama:gajah
      umur:2\sd
      panjang:3/cm        
 ''')   
 
 #multiline literal string dan raw
-print('''
+print(r'''
      nama:gajah
      umur:2\sd
      panjang:3/cm
