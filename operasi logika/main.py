@@ -1,12 +1,12 @@
 #NOT
-print('                         NOT')
+print("\n",'NOT'.center(15,"="))
 a=True
 b=not a
 print("data a :",a)
 print("data b :",b)
 
 #OR(jika salahsatrue maka hasilnya true)
-print('                         OR')
+print("\n",'OR'.center(15,"="))
 a=True
 b=False
 c=a or b
@@ -23,7 +23,7 @@ c=a or b
 print(a,"or",b,"=",c)
 
 #AND
-print('                         AND')
+print("\n",'AND'.center(15,"="))
 
 a=True
 b=False
@@ -41,7 +41,7 @@ c=a and b
 print(a,"and",b,"=",c) 
 
 #XOR
-print('                         XOR')
+print("\n",'XOR'.center(15,"="))
 
 a=True
 b=False
