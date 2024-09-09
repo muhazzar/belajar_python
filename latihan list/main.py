@@ -13,4 +13,4 @@ while True:
     isnext=input("lanjut? (y/n)")
     if isnext =="n":
         break
-print("\nSELESAI\n".center(20))
+print("SELESAI".center(20))
