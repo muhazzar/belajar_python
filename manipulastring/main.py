@@ -112,12 +112,12 @@ c='odadingAMironAMman'
 print(c.split('AM'))
 
 #alokasi karakter rjust() ljust() center()
-kanan='kanan'.rjust(20)
+kanan='kanan'.rjust(30)
 print(kanan)
 
-kiri='kiri'.ljust(20)
+kiri='kiri'.ljust(30)
 print(kiri)
 
-tengah='tengah'.center(20)
+tengah='tengah'.center(30)
 print(tengah)
 

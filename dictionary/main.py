@@ -5,11 +5,11 @@ data_dict={
     "mg":"magnum",
     "sm":"samsu"
 }
-print(data_dict["sm"])
+print(f"data awal: {data_dict}\n")
 
 #panjang dictionary
 lendict=len(data_dict)
-print(f"panjang dictionary: {lendict}")
+print(f"panjang dictionary: {lendict}\n")
 
 #ngecek key exist
 key="mg"
