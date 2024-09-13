@@ -9,7 +9,7 @@ roko=dud.copy()
 print(f"dud: {dud}")
 print(f"roko: {roko}\n")
 
-dud["gt"]="signatuer"
+roko["gt"]="signatuer"
 
 print(f"dud: {dud}")
 print(f"roko: {roko}\n")

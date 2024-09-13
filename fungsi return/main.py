@@ -1,3 +1,4 @@
+print("KUADRAT")
 def kuadrat(x):
     output=x**2
     return output
@@ -6,15 +7,15 @@ y=kuadrat(2)
 print(y)
 
 
-
+print("NAMBAH")
 def fungsi_tambah(number_1,number_2):
     return number_1 + number_2
 
 a=fungsi_tambah(4,7)
 print(a)
-print("\n")
 
 
+print("\nNGITUNG")
 def ngitung(num_1,num_2):
     kali=num_1 * num_2
     bagi=num_1 / num_2

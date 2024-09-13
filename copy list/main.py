@@ -1,11 +1,11 @@
 
-a=["bola","sangkuriang","liwet"]
-b=a.copy()
+data_list=["bad thing","bad blood","liwet"]
+data_copy=data_list.copy()
 
-print(a)
-print(b)
+print(f"asli: {data_list}")
+print(f"copy: {data_copy}\n")
 
-b[1]="jarwo"
+data_copy[2]="migraine"#data asli tidak akan berubah
 
-print(a)
-print(b)
+print(f"asli: {data_list}")
+print(f"copy: {data_copy}")
