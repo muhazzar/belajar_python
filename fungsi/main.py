@@ -1,6 +1,6 @@
 #membuat fungsi
 
-#def nama_fungsi(argument):
+#def nama fungsi(argument):
 #    badan fungsi
 
 
