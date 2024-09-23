@@ -25,10 +25,6 @@ def display(massage,value):
     print(f"hasil perhitungan {massage} = {value}")
 
 
-def pilihan():
-    tanya_opsi=int(input('1 untuk menghitung luas,2 untuk menghitung keliling: '))
-
-
 
 while True:
     header()
@@ -43,14 +39,6 @@ while True:
     elif opsi=='2':
         KELILING=hitung_keliling(PANJANG,LEBAR)
         display("keliling",KELILING)
-
-
-
-
-    #LUAS=hitung_luas(PANJANG,LEBAR)
-    #KELILING=hitung_keliling(PANJANG,LEBAR)
-    #display("luas",LUAS)
-    #display("keliling",KELILING)
 
     isContinue=input("next (y/n)")
     if isContinue == "n":
