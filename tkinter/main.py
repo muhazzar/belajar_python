@@ -37,8 +37,8 @@ nama_label_belakang.pack(padx=10,fill="x",expand=True)
 nama_belakang_entry=ttk.Entry(input_frame,textvariable=NAMA_BELAKANG)
 nama_belakang_entry.pack(padx=10,fill="x",expand=True)
 #5.tombol
-
 tombol=ttk.Button(input_frame,text="pencet",command=tombol_click)
 tombol.pack(padx=10,pady=10,fill="x",expand=True)
 
+#mainloop window
 window.mainloop()

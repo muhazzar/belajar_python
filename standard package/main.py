@@ -15,8 +15,3 @@ print(f"jumlah B: {data_count['B']}")
 print(f"jumlah C: {data_count['C']}")
 print(f"jumlah D: {data_count['D']}")
 
-
-import io
-
-file=io.open("file_text.txt","r")
-print(file.read())
